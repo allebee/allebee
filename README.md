@@ -1,30 +1,14 @@
-<p align="center">
-  <img src="assets/banner.svg" alt="Alibi Serikbay — applied AI, speech systems and developer tools" width="100%">
-</p>
+# Alibi Serikbay
 
-<p align="center">
-  <a href="https://huggingface.co/alibiserikbay/kazakh-russian-mixed-stt">Speech models</a> ·
-  <a href="https://github.com/allebee">GitHub</a> ·
-  <a href="https://www.linkedin.com/in/alibi-serikbay/">LinkedIn</a>
-</p>
+AI engineer in Astana, Kazakhstan.
 
-### Hi, I'm Alibi
+Kazakh is still underserved by open speech recognition. I trained models for Kazakh, Russian, and speech that switches between them, then released the weights and evaluation details publicly. My other work is about making model behavior easier to inspect: explicit probabilities, semantic tests, and useful tools for real text streams.
 
-I'm an AI engineer based in Astana. I work on speech recognition, model evaluation, and small tools that make AI systems easier to use and verify.
+## Work
 
-### Featured work
+- **[Kazakh & Russian STT](https://huggingface.co/alibiserikbay/kazakh-russian-mixed-stt)** — three speech recognizers, including one for mixed-language audio. [Inference code](https://github.com/allebee/kazakh-russian-mixed-stt).
+- **[JevK5](https://github.com/allebee/jevk5)** — an open decision model that returns typed answer probabilities in one forward pass.
+- **[pytest-jev](https://github.com/allebee/pytest-jev)** — semantic assertions for LLM applications.
+- **[jevgrep](https://github.com/allebee/jevgrep)** — a CLI that filters live logs by meaning.
 
-| Project | What it does |
-| --- | --- |
-| **[Kazakh & Russian STT](https://github.com/allebee/kazakh-russian-mixed-stt)** · [models on Hugging Face](https://huggingface.co/alibiserikbay/kazakh-russian-mixed-stt) | TorchScript speech recognition for Kazakh, Russian, and mixed speech. The GitHub repo has a simple inference script; Hugging Face hosts the weights and full model card. |
-| **[Jev](https://github.com/allebee/jevk5)** | An open decision model that returns typed answers and calibrated probabilities in one pass. |
-| **[pytest-jev](https://github.com/allebee/pytest-jev)** | Semantic assertions for testing what an LLM application's output means. |
-| **[jevgrep](https://github.com/allebee/jevgrep)** | Search streams and logs by meaning with a plain-English yes/no question. |
-
-### What I'm focused on
-
-- Practical speech recognition for Kazakh and Russian, including mixed-language audio.
-- Evaluations that expose errors and uncertainty clearly.
-- Tools that turn model research into something another developer can run.
-
-If you're working on speech technology or reliable AI tools, [get in touch on LinkedIn](https://www.linkedin.com/in/alibi-serikbay/).
+If you try the speech model on real Kazakh or mixed-language audio, I'd like to hear where it fails. [Open an issue](https://github.com/allebee/kazakh-russian-mixed-stt/issues) or [reach me on LinkedIn](https://www.linkedin.com/in/alibi-serikbay/).
