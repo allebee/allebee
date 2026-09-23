@@ -1,4 +1,4 @@
-# Kazakh & Russian speech
+# AI/ML Enthusiast
 
 I trained and released [speech recognition models for Kazakh, Russian, and mixed speech](https://huggingface.co/alibiserikbay/kazakh-russian-mixed-stt). Kazakh is still underrepresented in open STT, and real conversations switch languages. The model card includes results and limitations; the [CPU inference example](https://github.com/allebee/kazakh-russian-mixed-stt) runs short recordings.
 
