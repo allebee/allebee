@@ -4,7 +4,7 @@ I trained and released [speech recognition models for Kazakh, Russian, and mixed
 
 ## More projects
 
-- [JevK5](https://github.com/allebee/jevk5) — an open decision model that returns typed answer probabilities in one pass.
+- [JevK5](https://github.com/allebee/jevk5) — an open-weight Jev alternative for typed decisions; [#2 of 76 on JevBench v1.4](https://github.com/fstandhartinger/jevbench).
 - [pytest-jev](https://github.com/allebee/pytest-jev) — tests whether an LLM response makes the claims you expect.
 - [jevgrep](https://github.com/allebee/jevgrep) — filters live logs by meaning using plain-English questions.
 
